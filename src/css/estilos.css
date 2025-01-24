@@ -1,13 +1,16 @@
-body {
-	font-family: "Yugioh", serif;
-	background-image: url(../imagens/fundo-site.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 100vh;
-    gap: 15px;
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens/fundo-site.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.9;
+    z-index: -1;
 }
 
 .cabecalho {
@@ -16,6 +19,8 @@ body {
 }
 
 .cabecalho .titulo {
+	padding: 10px;
+
 	color: #f1ecff;
 }
 
@@ -26,6 +31,7 @@ body {
 	padding: 12px;
     gap: 5px;
     position: absolute;
+	border-radius: 5px;
 }
 
 .cartao.selecionado {
