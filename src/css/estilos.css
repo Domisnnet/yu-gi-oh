@@ -1,3 +1,9 @@
+/* Estilo para o fundo do site */
+body {
+    min-height: 100vh; 
+    overflow: hidden; 
+}
+
 body::before {
     content: "";
     position: absolute;
@@ -7,132 +13,131 @@ body::before {
     height: 100%;
     background-image: url(../imagens/fundo-site.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-position: center; /* Centraliza a imagem */
+    background-size: cover; 
     opacity: 0.9;
     z-index: -1;
 }
 
 .cabecalho {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .cabecalho .titulo {
-	padding: 10px;
-
-	color: #f1ecff;
+    padding: 10px;
+    color: #f1ecff;
 }
 
 .cartao {
-	opacity: 0;
-	display: flex;
-	flex-direction: column;
-	padding: 12px;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
     gap: 5px;
     position: absolute;
-	border-radius: 5px;
+    border-radius: 5px;
 }
 
 .cartao.selecionado {
-	opacity: 1;
+    opacity: 1;
     z-index: 1;
 }
 
 .lista-personagens {
-	width: 300px;
-	height: 500px;
-	border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
     position: relative;
 }
 
 .slider {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
 }
 
 .cartao .nome {
-	font-size: 13px;
-	padding: 5px;
-	text-transform: uppercase;
-	background: radial-gradient(circle, #f3e2c8, #e4cfa5, #c4a57a);
-	border: 2px solid #a67c52;
-	border-radius: 5px;
+    font-size: 13px;
+    padding: 5px;
+    text-transform: uppercase;
+    background: radial-gradient(circle, #f3e2c8, #e4cfa5, #c4a57a);
+    border: 2px solid #a67c52;
+    border-radius: 5px;
 }
 
 .cartao .estrela {
-	width: 20px;
-	height: 20px;
-	background-image: url(../imagens/nivel-carta.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../imagens/nivel-carta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
 }
 
 .cartao .nivel-carta {
-	display: flex;
-	justify-content: flex-end;
-	margin-right: 10px;
-	gap: 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    gap: 5px;
 }
 
 .cartao .imagem-carta {
-	max-width: 260px;
-	align-self: center;
+    max-width: 260px;
+    align-self: center;
 }
 
 .cartao .informacoes {
-	border-radius: 5px;
-	max-width: 300px;
-	color: #000000;
-	background: radial-gradient(circle, #f3e2c8, #e4cfa5, #c4a57a);
-	border: 2px solid #a67c52;
-	text-align: left;
-	line-height: 1.5;
+    border-radius: 5px;
+    max-width: 300px;
+    color: #000000;
+    background: radial-gradient(circle, #f3e2c8, #e4cfa5, #c4a57a);
+    border: 2px solid #a67c52;
+    text-align: left;
+    line-height: 1.5;
     padding: 5px;
 }
 
 .cartao .informacoes .informacoes-ataque {
-	display: flex;
-	justify-content: flex-end;
-	gap: 5px;
-	padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    padding: 10px;
 }
 
 .cartao .informacoes .informacoes-ataque span {
-	font-size: 13px;
+    font-size: 13px;
 }
 
 .cartao .informacoes .descricao {
-	border-bottom: 1px solid #000000;
-	padding: 10px;
-	max-height: 95px;
-	overflow-y: scroll;
-	font-size: 13px;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    max-height: 95px;
+    overflow-y: scroll;
+    font-size: 13px;
 }
 
 .fundo-1 {
-	background: url(../imagens/fundo-1.jpg) no-repeat;
+    background: url(../imagens/fundo-1.jpg) no-repeat;
 }
 .fundo-2 {
-	background: url(../imagens/fundo-2.jpg) no-repeat;
+    background: url(../imagens/fundo-2.jpg) no-repeat;
 }
 .fundo-3 {
-	background: url(../imagens/fundo-3.jpg) no-repeat;
+    background: url(../imagens/fundo-3.jpg) no-repeat;
 }
 .fundo-4 {
-	background: url(../imagens/fundo-4.jpg) no-repeat;
+    background: url(../imagens/fundo-4.jpg) no-repeat;
 }
 .fundo-5 {
-	background: url(../imagens/fundo-5.jpg) no-repeat;
+    background: url(../imagens/fundo-5.jpg) no-repeat;
 }
 .fundo-6 {
-	background: url(../imagens/fundo-6.jpg) no-repeat;
+    background: url(../imagens/fundo-6.jpg) no-repeat;
 }
 .fundo-7 {
-	background: url(../imagens/fundo-7.jpg) no-repeat;
+    background: url(../imagens/fundo-7.jpg) no-repeat;
 }
 
 .btn-seta{
@@ -173,3 +178,4 @@ body::-webkit-scrollbar-track{
 ::-webkit-scrollbar-thumb:hover {
     background: #c08057;
 }
+
