@@ -1,4 +1,4 @@
-/* Estilo para o fundo do site */
+
 body {
     min-height: 100vh; 
     overflow: hidden; 
@@ -13,7 +13,7 @@ body::before {
     height: 100%;
     background-image: url(../imagens/fundo-site.jpg);
     background-repeat: no-repeat;
-    background-position: center; /* Centraliza a imagem */
+    background-position: center; 
     background-size: cover; 
     opacity: 0.9;
     z-index: -1;
