@@ -1,32 +1,15 @@
-@media (max-width: 768px) {
-    .cartao .nome {
-        font-size: 14px;
+@media(max-width: 768px) {
+    body {
+        background-position: center;
+        padding: 0 15px;
     }
-    .lista-personagens {
-        width: 95%;
-        padding: 50px 0;
-    }
+
     .slider {
-        padding: 0 10px;
-    }
-    .btn-seta {
-        width: 50px;
-        height: 50px;
+        gap: 10px;
     }
 }
 
-
-@media (min-width: 769px) {
-    .lista-personagens {
-        padding: 30px 0;
-       width: 60%;
-    }
-    .slider {
-        padding: 0 150px; 
-    }
-}
-
-@media (max-width: 496px) {
+@media(max-width: 496px) {
     .lista-personagens {
         width: 250px;
     }
@@ -34,14 +17,33 @@
     .imagem-carta {
         width: 100%;
     }
-}
 
-@media (max-width: 375px) {
-    .lista-personagens {
-        width: 200px;
+    .slider {
+        position: relative;
     }
 
-    .imagem-carta {
-        width: 100%;
+    .btn-seta {
+        position: absolute;
+        bottom: -13%;
+    }
+
+    #btn-avancar {
+        right: 20%;
+    }
+
+    #btn-voltar {
+        left: 20%;
+    }
+}
+
+@media(max-width: 375px) {
+    body {
+        justify-content: start;
+        padding-top: 10px;
+        gap: 10px;
+    }
+
+    .cabecalho {
+        font-size: 12px;
     }
 }
