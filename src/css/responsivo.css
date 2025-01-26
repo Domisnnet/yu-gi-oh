@@ -29,3 +29,23 @@
         height: 50px; 
     }
 }
+
+@media (max-width: 496px) {
+    .lista-personagens {
+        width: 250px;
+    }
+
+    .imagem-carta {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .lista-personagens {
+        width: 200px;
+    }
+
+    .imagem-carta {
+        width: 100%;
+    }
+}
