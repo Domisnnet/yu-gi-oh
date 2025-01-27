@@ -38,6 +38,7 @@ body {
 	height: 500px;
 	border-radius: 10px;
     position: relative;
+	padding: 12px;
 }
 
 .slider {
