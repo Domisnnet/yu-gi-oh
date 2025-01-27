@@ -172,7 +172,7 @@ body::-webkit-scrollbar-track{
 	display: none;
 }
 
-.carta-virada.mostrtar-fundo-carta {
+.carta-virada.mostrar-fundo-carta {
 	position: absolute;
 	display: block;
 	width: 100%;
