@@ -100,7 +100,82 @@ Os arquivos CSS proporcionam o estilo da página:
 *   `responsivo.css`: Ajustes para diferentes tamanhos de tela.
 <br>
 
-## Conclusão 
+## 8. 🤝 Contribuindo para a Batalha! 🃏
+
+<p style="font-size: 1.1em; font-style: italic;">
+  "O coração das cartas guiará sua contribuição."
+</p>
+
+<div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; border: 2px solid #222;">
+  <p style="margin-bottom: 10px; font-weight: bold; color: #0056b3; text-align: center;">
+      <span style="display:inline-block; margin-right: 5px;"> 👐 </span> Siga os passos para fortalecer este deck:
+  </p>
+  <ul style="list-style-type: none; padding: 0; margin: 0;">
+      <li style="margin-bottom: 10px;">
+           <span style="font-weight: bold; color: #1c7430;">1. 🍴 Faça um fork:</span> Adicione este projeto ao seu deck.
+      </li>
+      <li style="margin-bottom: 10px;">
+          <span style="font-weight: bold; color: #1c7430;">2. 🌿 Crie uma branch:</span> Prepare suas cartas (`git checkout -b minha-contribuicao`).
+      </li>
+      <li style="margin-bottom: 10px;">
+          <span style="font-weight: bold; color: #1c7430;">3. ✍️ Prepare seus commits:</span> Guarde suas mudanças (`git commit -am 'Adicione minha contribuição'`).
+      </li>
+     <li style="margin-bottom: 10px;">
+          <span style="font-weight: bold; color: #1c7430;">4. 🚀 Envie suas cartas:</span> Lance seu ataque (`git push origin minha-contribuicao`).
+      </li>
+      <li>
+           <span style="font-weight: bold; color: #1c7430;">5. ⚔️ Abra um Pull Request:</span> Desafie este deck original.
+      </li>
+  </ul>
+</div>
+
+<br>
+
+## 9. 🤔 Perguntas Frequentes do Duelista
+
+<div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; border: 2px solid #222;">
+
+  <p style="margin-bottom: 15px; font-size: 1.2em; font-weight: bold; color: #e67e22; text-align: center;">
+    <span style="display:inline-block; margin-right: 5px;"> 💬 </span> Dúvidas no duelo? Veja aqui:
+  </p>
+
+  <div style="margin-bottom: 15px;">
+      <strong style="color: #e74c3c; font-size: 1.1em;">Pergunta 1:</strong> <span style="font-style: italic; margin-left: 5px;">Como faço para ver os outros "Pokedevs"?</span><br>
+      <span style="color: #3498db; margin-left: 20px;">
+         <strong>Resposta:</strong> Use a lista lateral de "Pokedevs". Ao clicar em um nome, o cartão correspondente será exibido.
+      </span>
+  </div>
+
+   <div style="margin-bottom: 15px;">
+      <strong style="color: #e74c3c; font-size: 1.1em;">Pergunta 2:</strong> <span style="font-style: italic; margin-left: 5px;">Posso usar este projeto como base para meus projetos?</span><br>
+       <span style="color: #3498db; margin-left: 20px;">
+         <strong>Resposta:</strong> Sim, o código está disponível no GitHub e você pode usá-lo como base para seus projetos, lembrando de dar os créditos apropriados.
+       </span>
+  </div>
+
+  <div style="margin-bottom: 15px;">
+      <strong style="color: #e74c3c; font-size: 1.1em;">Pergunta 3:</strong> <span style="font-style: italic; margin-left: 5px;">Como posso entrar em contato com o desenvolvedor?</span><br>
+      <span style="color: #3498db; margin-left: 20px;">
+          <strong>Resposta:</strong> Você pode entrar em contato através do perfil do GitHub:
+       </span>
+  </div>
+  
+<div style="display: inline-block; padding: 10px; border-radius: 8px; border: 2px solid #222; background-color: #FFF; text-align: center;">
+  <a href="https://github.com/Domisnnet" style="text-decoration: none;">
+        <div style="display: flex; align-items: center;">
+            <img src="imagens/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub" style="margin-right: 10px; border-radius: 50%; border: 2px solid #222;">
+          <div>
+              <p style="font-weight: bold; margin: 0; color: #e67e22;">DomisDev</p>
+             <p style="font-style: italic; font-size: 0.9em; margin: 0; color: #777;">Mestre de Duelo</p>
+          </div>
+         </div>
+      </a>
+</div>
+
+</div>
+<br>
+
+## Conclusão
 Este README interativo fornece uma visão geral completa do projeto "Clone Yu-Gi-Oh!". Ao seguir as instruções e explorar os arquivos, você será capaz de compreender a estrutura e o funcionamento do projeto. Sinta-se à vontade para explorar e modificar este projeto!
 
 <br>
