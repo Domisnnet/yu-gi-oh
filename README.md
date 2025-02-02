@@ -1,14 +1,9 @@
 
 # ✨ Yu-Gi-Oh! 🃏
 
-Bem-vindo ao README interativo do projeto "Yu-Gi-Oh!". Este projeto é uma recriação estilizada da interface de exibição de cartas do popular jogo de cartas colecionáveis Yu-Gi-Oh!, com um toque personalizado.
-
-<br>
-
-**🚀 Demonstração:** [Yu-gi-oh!](https://domisnnet.github.io/yu-gi-oh/) 
-
-<br>
 ![Yu-gi-oh!](imagens/yu-gi-oh.png)
+
+Bem-vindo ao README interativo do projeto "Yu-Gi-Oh!". Este projeto é uma recriação estilizada da interface de exibição de cartas do popular jogo de cartas colecionáveis Yu-Gi-Oh!, com um toque personalizado.
 
 <br>
 
