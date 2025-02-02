@@ -8,7 +8,7 @@ Bem-vindo ao README interativo do projeto "Yu-Gi-Oh!". Este projeto é uma recri
 **🚀 Demonstração:** [Yu-gi-oh!](https://domisnnet.github.io/yu-gi-oh/) 
 
 <br>
-<img src="src/imagens/yu-gi-oh.png" alt="Yu-gi-oh!" width="300"> 
+![Yu-gi-oh!](imagens/yu-gi-oh.png)
 
 <br>
 
