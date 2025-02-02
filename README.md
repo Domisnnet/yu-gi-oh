@@ -55,9 +55,6 @@ Clique no botão abaixo para acessar:
    <img src="src/imagens/botão.webp" width="35px" height="35px" alt="Acessar">
 </a>
 
-### Exemplo do Slider em Ação
-<img src="src/imagens/slider-gif.gif" alt="Exemplo do Slider de Cartas" style="max-width: 500px;">
-
 ## 5. Estrutura do HTML: 💻
 
 O HTML está estruturado da seguinte forma:
@@ -68,9 +65,6 @@ O HTML está estruturado da seguinte forma:
     *   **`<ul class="lista-personagens">`**: Lista de cartas.
         *   **`<li class="cartao ...">`**: Cada carta é um item da lista, com classes que indicam seu fundo (`fundo-1`, `fundo-2`, etc.) e se está selecionada (`selecionado`).
           <br>
-         
-             <img src="src/imagens/exemplo-carta.png" alt="Exemplo de carta" style="max-width: 200px;">
-           
             *   **`<div class="carta-virada">`**: Elemento visual para simular a parte de trás da carta.
             *   **`<h2 class="nome">`**: Nome da carta.
             *   **`<div class="nivel-carta">`**: Representação visual do nível da carta usando estrelas.
@@ -104,10 +98,10 @@ Os arquivos CSS proporcionam o estilo da página:
 </p>
 
 <div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; border: 2px solid #222;">
-  <p style="margin-bottom: 10px; font-weight: bold; color: #0056b3; text-align: center;">
+    <p style="margin-bottom: 10px; font-weight: bold; color: #0056b3; text-align: center;">
       <span style="display:inline-block; margin-right: 5px;"> 👐 </span> Siga os passos para fortalecer este deck:
-  </p>
-  <ul style="list-style-type: none; padding: 0; margin: 0;">
+    </p>
+    <ul style="list-style-type: none; padding: 0; margin: 0;">
       <li style="margin-bottom: 10px;">
            <span style="font-weight: bold; color: #1c7430;">1. 🍴 Faça um fork:</span> Adicione este projeto ao seu deck.
       </li>
@@ -123,7 +117,7 @@ Os arquivos CSS proporcionam o estilo da página:
       <li>
            <span style="font-weight: bold; color: #1c7430;">5. ⚔️ Abra um Pull Request:</span> Desafie este deck original.
       </li>
-  </ul>
+    </ul>
 </div>
 
 ## 9. 🤔 Perguntas Frequentes do Duelista
