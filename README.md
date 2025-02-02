@@ -147,7 +147,8 @@ Os arquivos CSS proporcionam o estilo da página:
     DomisDev
 </a> 
 
-## Conclusão
+## Conclusão 📝
+
 
 Este README interativo fornece uma visão geral completa do projeto "Clone Yu-Gi-Oh!". Ao seguir as instruções e explorar os arquivos, você será capaz de compreender a estrutura e o funcionamento do projeto. Sinta-se à vontade para explorar e modificar este projeto!
 
