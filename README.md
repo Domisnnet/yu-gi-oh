@@ -64,7 +64,6 @@ O HTML está estruturado da seguinte forma:
     *   **`<button class="btn-seta btn-voltar" id="btn-voltar">`**: Botão para navegar para a carta anterior.
     *   **`<ul class="lista-personagens">`**: Lista de cartas.
         *   **`<li class="cartao ...">`**: Cada carta é um item da lista, com classes que indicam seu fundo (`fundo-1`, `fundo-2`, etc.) e se está selecionada (`selecionado`).
-          <br>
             *   **`<div class="carta-virada">`**: Elemento visual para simular a parte de trás da carta.
             *   **`<h2 class="nome">`**: Nome da carta.
             *   **`<div class="nivel-carta">`**: Representação visual do nível da carta usando estrelas.
