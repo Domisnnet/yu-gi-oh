@@ -133,46 +133,31 @@ Os arquivos CSS proporcionam o estilo da página:
 
 ## 9. 🤔 Perguntas Frequentes do Duelista
 
-<div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; border: 2px solid #222;">
+**Pergunta 1:** O que é este projeto?
 
-  <p style="margin-bottom: 15px; font-size: 1.2em; font-weight: bold; color: #e67e22; text-align: center;">
-    <span style="display:inline-block; margin-right: 5px;"> 💬 </span> Dúvidas no duelo? Veja aqui:
-  </p>
+   **Resposta:** Este projeto é um clone interativo de cartas do jogo Yu-Gi-Oh!, desenvolvido utilizando HTML, CSS e JavaScript. Ele apresenta uma interface de "slideshow" onde você pode navegar por diferentes cartas com descrições e atributos.
 
-  <div style="margin-bottom: 15px;">
-      <strong style="color: #e74c3c; font-size: 1.1em;">Pergunta 1:</strong> <span style="font-style: italic; margin-left: 5px;">Como faço para ver os outros "Pokedevs"?</span><br>
-      <span style="color: #3498db; margin-left: 20px;">
-         <strong>Resposta:</strong> Use a lista lateral de "Pokedevs". Ao clicar em um nome, o cartão correspondente será exibido.
-      </span>
-  </div>
+**Pergunta 3:** Como funciona o sistema de cartas?
 
-   <div style="margin-bottom: 15px;">
-      <strong style="color: #e74c3c; font-size: 1.1em;">Pergunta 2:</strong> <span style="font-style: italic; margin-left: 5px;">Posso usar este projeto como base para meus projetos?</span><br>
-       <span style="color: #3498db; margin-left: 20px;">
-         <strong>Resposta:</strong> Sim, o código está disponível no GitHub e você pode usá-lo como base para seus projetos, lembrando de dar os créditos apropriados.
-       </span>
-  </div>
+   **Resposta:** O projeto exibe uma lista de cartas, cada uma com:
+    * Um nome (título)
+    * Uma imagem da carta
+    * Uma quantidade de estrelas representando o nível da carta.
+    * Uma descrição da carta, com sua história.
+    * Seus atributos de ataque (ATK) e defesa (DEF).
 
-  <div style="margin-bottom: 15px;">
-      <strong style="color: #e74c3c; font-size: 1.1em;">Pergunta 3:</strong> <span style="font-style: italic; margin-left: 5px;">Como posso entrar em contato com o desenvolvedor?</span><br>
-      <span style="color: #3498db; margin-left: 20px;">
-          <strong>Resposta:</strong> Você pode entrar em contato através do perfil do GitHub:
-       </span>
-  </div>
-  
-<div style="display: inline-block; padding: 10px; border-radius: 8px; border: 2px solid #222; background-color: #FFF; text-align: center;">
-  <a href="https://github.com/Domisnnet" style="text-decoration: none;">
-        <div style="display: flex; align-items: center;">
-            <img src="src/imagens/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub" style="margin-right: 10px; border-radius: 50%; border: 2px solid #222;">
-          <div>
-              <p style="font-weight: bold; margin: 0; color: #e67e22;">DomisDev</p>
-          </div>
-         </div>
-      </a>
-</div>
+**Pergunta 3:** Posso usar este projeto como base para meus projetos?
 
-</div>
-<br>
+   **Resposta:** Sim, o código está disponível no GitHub e você pode usá-lo como base para seus projetos, lembrando de dar os créditos apropriados.
+
+**Pergunta 3:** Como posso entrar em contato com o desenvolvedor?
+
+   **Resposta:** Você pode entrar em contato através do perfil do GitHub: 
+
+<a href="https://github.com/Domisnnet">
+    <img src="imagens/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub">
+    DomisDev
+</a> 
 
 ## Conclusão
 Este README interativo fornece uma visão geral completa do projeto "Clone Yu-Gi-Oh!". Ao seguir as instruções e explorar os arquivos, você será capaz de compreender a estrutura e o funcionamento do projeto. Sinta-se à vontade para explorar e modificar este projeto!
