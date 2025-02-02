@@ -163,7 +163,7 @@ Os arquivos CSS proporcionam o estilo da página:
 <div style="display: inline-block; padding: 10px; border-radius: 8px; border: 2px solid #222; background-color: #FFF; text-align: center;">
   <a href="https://github.com/Domisnnet" style="text-decoration: none;">
         <div style="display: flex; align-items: center;">
-            <img src="imagens/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub" style="margin-right: 10px; border-radius: 50%; border: 2px solid #222;">
+            <img src="src/imagens/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub" style="margin-right: 10px; border-radius: 50%; border: 2px solid #222;">
           <div>
               <p style="font-weight: bold; margin: 0; color: #e67e22;">DomisDev</p>
              <p style="font-style: italic; font-size: 0.9em; margin: 0; color: #777;">Mestre de Duelo</p>
