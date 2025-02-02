@@ -1,13 +1,11 @@
-
 # ✨ Yu-Gi-Oh! 🃏
 
 ![Yu-gi-oh!](src/imagens/yu-gi-oh.png)
 
 Bem-vindo ao README interativo do projeto "Yu-Gi-Oh!". Este projeto é uma recriação estilizada da interface de exibição de cartas do popular jogo de cartas colecionáveis Yu-Gi-Oh!, com um toque personalizado.
 
-<br>
-
 ## 📚 Tabela de Conteúdo
+
 * [1. Estrutura do Projeto](#1-estrutura-do-projeto)
 * [2. Tecnologias Utilizadas](#2-tecnologias-utilizadas)
 * [3. Funcionalidades da Aplicação](#3-funcionalidades-da-aplicação)
@@ -15,14 +13,13 @@ Bem-vindo ao README interativo do projeto "Yu-Gi-Oh!". Este projeto é uma recri
 * [5. Estrutura do HTML](#5-estrutura-do-html)
 * [6. Como a Interatividade Funciona (JavaScript)](#6-como-a-interatividade-funciona-javascript)
 * [7. Classes CSS e Design](#7-classes-css-e-design)
+* [8. Contribuindo para a Batalha!](#8-contribuindo-para-a-batalha)
+* [9. Perguntas Frequentes do Duelista](#9-perguntas-frequentes-do-duelista)
 * [Conclusão](#conclusão)
 
-<br>
-
-## 1. Estrutura do Projeto
+## 1. Estrutura do Projeto ⚙️
 
 Este projeto está organizado da seguinte forma:
-<br>
 
 ## 2. Tecnologias Utilizadas ⚙️
 <p align="left">
@@ -30,16 +27,16 @@ Este projeto está organizado da seguinte forma:
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge">
 </p>
-<br>
+
 <p>
   Este projeto foi desenvolvido usando:
 </p>
+
 <ul>
     <li><strong>HTML5</strong>: Linguagem de marcação para a estrutura da página.</li>
     <li><strong>CSS3</strong>: Linguagem de estilo para a apresentação visual da página.</li>
     <li><strong>JavaScript</strong>: Linguagem de programação para adicionar interatividade à página.</li>
 </ul>
-<br>
 
 ## 3. Funcionalidades da Aplicação 🛠️
 
@@ -49,18 +46,19 @@ Este projeto implementa as seguintes funcionalidades:
 *   **Design Responsivo:** A interface se adapta a diferentes tamanhos de tela, incluindo dispositivos móveis e tablets.
 *   **Interatividade:** Utiliza JavaScript para controlar a navegação do slider e a seleção da carta.
 *   **Estilização Personalizada:** Apresenta um visual único inspirado no universo Yu-Gi-Oh!, criado com CSS.
-<br>
 
-## Como Usar 🚀
+## 4. Como Usar 🚀
 
 Clique no botão abaixo para acessar:
 
 <a href="https://domisnnet.github.io/yu-gi-oh/" target="_blank" rel="noopener noreferrer">
    <img src="src/imagens/botão.webp" width="35px" height="35px" alt="Acessar">
 </a>
-<br>
 
-## 5. Estrutura do HTML:
+### Exemplo do Slider em Ação
+<img src="src/imagens/slider-gif.gif" alt="Exemplo do Slider de Cartas" style="max-width: 500px;">
+
+## 5. Estrutura do HTML: 💻
 
 O HTML está estruturado da seguinte forma:
 
@@ -69,6 +67,10 @@ O HTML está estruturado da seguinte forma:
     *   **`<button class="btn-seta btn-voltar" id="btn-voltar">`**: Botão para navegar para a carta anterior.
     *   **`<ul class="lista-personagens">`**: Lista de cartas.
         *   **`<li class="cartao ...">`**: Cada carta é um item da lista, com classes que indicam seu fundo (`fundo-1`, `fundo-2`, etc.) e se está selecionada (`selecionado`).
+          <br>
+         
+             <img src="src/imagens/exemplo-carta.png" alt="Exemplo de carta" style="max-width: 200px;">
+           
             *   **`<div class="carta-virada">`**: Elemento visual para simular a parte de trás da carta.
             *   **`<h2 class="nome">`**: Nome da carta.
             *   **`<div class="nivel-carta">`**: Representação visual do nível da carta usando estrelas.
@@ -79,16 +81,12 @@ O HTML está estruturado da seguinte forma:
     *   **`<button class="btn-seta btn-avancar" id="btn-avancar">`**: Botão para navegar para a próxima carta.
 *   **`<script src="src/js/index.js"></script>`**: Link para o arquivo JavaScript que implementa a interatividade.
 
-<br>
-
-## 6. Como a Interatividade Funciona (JavaScript):
+## 6. Como a Interatividade Funciona (JavaScript): 💻
 
 O arquivo `src/js/index.js` contém a lógica para:
 
 *   **Selecionar a carta ativa:** Mantém um registro de qual carta está selecionada.
 *   **Navegação:** Permite a navegação entre as cartas usando os botões de seta, atualizando a classe `selecionado` da carta ativa.
-
-<br>
 
 ## 7. Classes CSS e Design: 💻
 
@@ -98,7 +96,6 @@ Os arquivos CSS proporcionam o estilo da página:
 *   `fontes.css`: Define as fontes utilizadas no projeto.
 *   `reset.css`: Reseta os estilos padrão do navegador para garantir consistência entre diferentes navegadores.
 *   `responsivo.css`: Ajustes para diferentes tamanhos de tela.
-<br>
 
 ## 8. 🤝 Contribuindo para a Batalha! 🃏
 
@@ -129,15 +126,13 @@ Os arquivos CSS proporcionam o estilo da página:
   </ul>
 </div>
 
-<br>
-
 ## 9. 🤔 Perguntas Frequentes do Duelista
 
 **Pergunta 1:** O que é este projeto?
 
    **Resposta:** Este projeto é um clone interativo de cartas do jogo Yu-Gi-Oh!, desenvolvido utilizando HTML, CSS e JavaScript. Ele apresenta uma interface de "slideshow" onde você pode navegar por diferentes cartas com descrições e atributos.
 
-**Pergunta 3:** Como funciona o sistema de cartas?
+**Pergunta 2:** Como funciona o sistema de cartas?
 
    **Resposta:** O projeto exibe uma lista de cartas, cada uma com:
     * Um nome (título)
@@ -150,7 +145,7 @@ Os arquivos CSS proporcionam o estilo da página:
 
    **Resposta:** Sim, o código está disponível no GitHub e você pode usá-lo como base para seus projetos, lembrando de dar os créditos apropriados.
 
-**Pergunta 3:** Como posso entrar em contato com o desenvolvedor?
+**Pergunta 4:** Como posso entrar em contato com o desenvolvedor?
 
    **Resposta:** Você pode entrar em contato através do perfil do GitHub: 
 
@@ -160,11 +155,11 @@ Os arquivos CSS proporcionam o estilo da página:
 </a> 
 
 ## Conclusão
+
 Este README interativo fornece uma visão geral completa do projeto "Clone Yu-Gi-Oh!". Ao seguir as instruções e explorar os arquivos, você será capaz de compreender a estrutura e o funcionamento do projeto. Sinta-se à vontade para explorar e modificar este projeto!
 
-<br>
-
 **Links Úteis:**
+
 * [Documentação HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 * [Documentação CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 * [Documentação JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
