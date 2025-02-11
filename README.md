@@ -117,7 +117,7 @@ Os arquivos CSS proporcionam o estilo da página:
            <span style="font-weight: bold; color: #1c7430;">5. ⚔️ <a href="https://github.com/Domisnnet/yu-gi-oh/compare" target="_blank" style="color: #1c7430; text-decoration: underline;">Abra um Pull Request</a>:</span> Desafie este deck original.
       </li>
       <li>
-           <span style="font-weight: bold; color: #1c7430;"><a href="https://github.com/Domisnnet/yu-gi-oh/issues" target="_blank" style="color: #1c7430; text-decoration: underline;">Reportar um problema/Sugestão (Issues)</a></span>
+           <span style="font-weight: bold; color: #1c7430;">6. 🐛 <a href="https://github.com/Domisnnet/yu-gi-oh/issues" target="_blank" style="color: #1c7430; text-decoration: underline;">Reportar um problema/Sugestão (Issues)</a></span>
       </li>
     </ul>
 </div>
