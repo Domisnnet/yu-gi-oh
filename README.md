@@ -102,7 +102,7 @@ Os arquivos CSS proporcionam o estilo da página:
     </p>
     <ul style="list-style-type: none; padding: 0; margin: 0;">
       <li style="margin-bottom: 10px;">
-           <span style="font-weight: bold; color: #1c7430;">1. 🍴 Faça um fork:</span> Adicione este projeto ao seu deck.
+           <span style="font-weight: bold; color: #1c7430;">1. 🍴 <a href="https://github.com/Domisnnet/yu-gi-oh/fork" target="_blank" style="color: #1c7430; text-decoration: underline;">Faça um fork</a>:</span> Adicione este projeto ao seu deck.
       </li>
       <li style="margin-bottom: 10px;">
           <span style="font-weight: bold; color: #1c7430;">2. 🌿 Crie uma branch:</span> Prepare suas cartas (`git checkout -b minha-contribuicao`).
@@ -114,11 +114,13 @@ Os arquivos CSS proporcionam o estilo da página:
           <span style="font-weight: bold; color: #1c7430;">4. 🚀 Envie suas cartas:</span> Lance seu ataque (`git push origin minha-contribuicao`).
       </li>
       <li>
-           <span style="font-weight: bold; color: #1c7430;">5. ⚔️ Abra um Pull Request:</span> Desafie este deck original.
+           <span style="font-weight: bold; color: #1c7430;">5. ⚔️ <a href="https://github.com/Domisnnet/yu-gi-oh/compare" target="_blank" style="color: #1c7430; text-decoration: underline;">Abra um Pull Request</a>:</span> Desafie este deck original.
+      </li>
+      <li>
+           <span style="font-weight: bold; color: #1c7430;"><a href="https://github.com/Domisnnet/yu-gi-oh/issues" target="_blank" style="color: #1c7430; text-decoration: underline;">Reportar um problema/Sugestão (Issues)</a></span>
       </li>
     </ul>
 </div>
-
 ## 9. 🤔 Perguntas Frequentes do Duelista
 
 **Pergunta 1:** O que é este projeto?
