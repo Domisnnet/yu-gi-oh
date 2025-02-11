@@ -150,6 +150,12 @@ Os arquivos CSS proporcionam o estilo da página:
     DomisDev
 </a> 
 
+---
+## Licença
+
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+
 ## Conclusão 📝
 
 
