@@ -105,10 +105,10 @@ Os arquivos CSS proporcionam o estilo da página:
            <span style="font-weight: bold; color: #1c7430;">1. 🍴 <a href="https://github.com/Domisnnet/yu-gi-oh/fork" target="_blank" style="color: #1c7430; text-decoration: underline;">Faça um fork</a>:</span> Adicione este projeto ao seu deck.
       </li>
       <li style="margin-bottom: 10px;">
-          <span style="font-weight: bold; color: #1c7430;">2. 🌿 Crie uma branch:</span> Prepare suas cartas (`git checkout -b minha-contribuicao`).
+          <span style="font-weight: bold; color: #1c7430;">2. 🌿 Crie uma branch:</span> Prepare suas cartas. <a href="https://www.atlassian.com/br/git/tutorials/using-branches" target="_blank" style="color: #1c7430; text-decoration: underline;">Tutorial sobre Branches</a>
       </li>
       <li style="margin-bottom: 10px;">
-          <span style="font-weight: bold; color: #1c7430;">3. ✍️ Prepare seus commits:</span> Guarde suas mudanças (`git commit -am 'Adicione minha contribuição'`).
+          <span style="font-weight: bold; color: #1c7430;">3. ✍️ Prepare seus commits:</span> Guarde suas mudanças. <a href="https://www.atlassian.com/br/git/tutorials/saving-changes/git-commit" target="_blank" style="color: #1c7430; text-decoration: underline;">Tutorial sobre Commits</a>
       </li>
      <li style="margin-bottom: 10px;">
           <span style="font-weight: bold; color: #1c7430;">4. 🚀 Envie suas cartas:</span> Lance seu ataque (`git push origin minha-contribuicao`).
@@ -121,6 +121,7 @@ Os arquivos CSS proporcionam o estilo da página:
       </li>
     </ul>
 </div>
+
 ## 9. 🤔 Perguntas Frequentes do Duelista
 
 **Pergunta 1:** O que é este projeto?
